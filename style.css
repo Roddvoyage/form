@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    height:100%;
+}
+
+.leafs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 12%;
+    width: 40%;
+    height: 100vh;
+    margin:0px;
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-size:100% 100%;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    justify-content: row;
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: row;
+    padding:10px;
+}
+
+#odin-logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    height: 120px;
+}
+
+#odintext {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+    font-size: 95px;
+    color: white;
+    margin:0px;
+    font-family: 'Norse';
+}
+
+.rightside{
+    background-color:white;
+    height: 60vh;
+    width:60%;
+    margin-top:0px;
+    box-shadow: 5px 2px 5px grey;
+}
+
+.aboveform {
+    font-size: 12px;
+    margin: 20px;
+}
